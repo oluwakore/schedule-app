@@ -1,0 +1,61 @@
+.container {
+  margin-top: 90px !important;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // justify-content: space-between !important;
+  h1 {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .line {
+    background-color: green;
+    width: 150px;
+    height: 10px;
+    font-size: 0.1rem;
+  }
+
+  .cover {
+    // font-weight: bold;
+    // font-size: 1.5rem;
+    color: black !important;
+    line-height: 2.1rem;
+    // background-color: chartreuse;
+    padding: 15px;
+  }
+}
+
+
+
+.details{
+  background-color: rgb(209, 204, 204);
+  // color: white !important;
+  padding: 5px;
+  width: 65px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.topdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
+}
+
+
+.maintitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: darkmagenta;
+  color: whitesmoke;
+  width: 100%;
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-weight: 600;
+    margin-bottom: -30px;
+  }
+
+  a {
+    background-color: rgb(8, 63, 45);
+    // color: black !important;
+    padding: 10px;
+    border-style: none;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+.seconds {
+  height: 100px;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    button {
+      font-weight: 600;
+    }
+  }
+
+  .secview {
+    font-size: 75px;
+    font-weight: bold;
+  }
+} 
+

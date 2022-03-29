@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 2.5rem;
+  margin-top: 30px;
+  margin-left: 70px;
+  height: fit-content;
+  line-height: 2.4rem;
+  color: black;
+
+
+  h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black !important;
+  }
+
+   button {
+     font-weight: 700 !important;
+     color: white !important;
+  }
+
+  a {
+    font-weight: 700 !important;
+    color: rgb(85, 76, 76) !important;
+ }
+
+
+
+}
+
+
+.buttonplace {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black !important;
+  }
+
+}

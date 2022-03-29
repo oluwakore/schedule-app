@@ -1,0 +1,67 @@
+.container {
+  margin-top: 80px !important;
+  width: 850px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  // background-color: black;
+  margin: auto;
+  .head_title {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black !important;
+  }
+   
+ .input_title {
+  font-weight: bolder;
+  color: black !important;
+  font-size: 1.2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+  input {
+    width: 850px;
+    opacity: 0.8;
+    height: 40px;
+    padding: 9px;
+  }
+
+  .button_container {
+   display: flex;
+   justify-content: space-between;
+   width: 210px;
+   align-items: center;
+   .button_one {
+    background-color: #041E42;
+    color: white;
+    font-size: 1em;
+    border-style: none;
+    height: 40px;
+    // padding: 10px;
+    width: 100px;
+    border-radius: 3px;
+    font-weight: bold;
+   }
+   .button_two {
+    background-color: rgb(228, 211, 211) ;
+    color: #041E42;
+    font-size: 1em;
+    border-style: none;
+    padding: 2px;
+    border-radius: 3px;
+    height: 40px;
+    // padding: 10px;
+    width: 100px;
+    font-weight: bold;
+   }
+  }
+
+
+  .form_spacer {
+    margin-bottom: 20px;
+    // color: #1890ff;
+  }
+
+}
+
