@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 270px;
   background-color: darkmagenta;
   color: whitesmoke;
   width: 100%;
@@ -14,7 +14,7 @@
 
   .title {
     font-weight: 600;
-    margin-bottom: -30px;
+    // margin-top: 20px;
   }
 
   a {
@@ -30,13 +30,13 @@
 }
 
 .seconds {
-  height: 100px;
+  // height: 150px;
 
   h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    // margin-top: 40px;
     button {
       font-weight: 600;
     }
@@ -46,4 +46,8 @@
     font-size: 75px;
     font-weight: bold;
   }
+}
+
+.downbutton {
+  margin-top: 60px;
 }

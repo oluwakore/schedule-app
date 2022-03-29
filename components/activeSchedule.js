@@ -72,15 +72,17 @@ const ActiveSchedule = () => {
             </h2>
           ))}
       </div>
-      {hasSchedule ? (
-        <Link href={`/schedule/${schedule.id}`}>
-          <a>Go to schedule</a>
-        </Link>
-      ) : (
-        <Link href={"/"}>
-          <a>Go to schedules</a>
-        </Link>
-      )}
+      <div className={activescheduleDes.downbutton}>
+        {hasSchedule ? (
+          <Link href={`/schedule/${schedule.id}`}>
+            <a>Go to schedule</a>
+          </Link>
+        ) : (
+          <Link href={"/"}>
+            <a>Go to schedules</a>
+          </Link>
+        )}
+      </div>
     </div>
   );
 };
