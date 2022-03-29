@@ -10,14 +10,14 @@ export default async function (req, res) {
   if (req.method === "POST" || req.method === "PATCH") {
     const { id, title, description, link, priority, timeToEnd } = req.body;
 
-    let url = `${process.env.API_URL}/schedules`
+    let url = `${process.env.API_URL}/schedules`;
 
     if (!title || !description || !link || !priority || !timeToEnd) {
       return res.status(422).send("Data is missing or incomplete");
     }
 
     if (req.method === "PATCH") {
-      url += `/${id}`
+      url += `/${id}`;
     }
 
     try {

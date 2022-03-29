@@ -16,12 +16,11 @@
     margin-top: 80px;
     width: 800px;
     height: 120px;
- 
+
     h1 {
       font-weight: 500;
       font-size: 1.1rem;
     }
-
   }
 }
 
@@ -38,7 +37,6 @@
     display: flex;
     border-style: none;
     border-radius: 2px;
-    
 
     input {
       height: 40px;
@@ -52,7 +50,6 @@
   }
 }
 
-
 .subs {
   border-style: none;
   width: 6rem;
@@ -61,7 +58,6 @@
   background-color: rgb(94, 94, 250);
   border-radius: 2px;
 }
-
 
 @media (max-width: 1200px) {
   .container {
@@ -75,12 +71,6 @@
 
   .subcontainer {
     font-weight: 500;
-      font-size: 5.1rem;
+    font-size: 5.1rem;
   }
- }
-
-
- 
-
-
- 
+}
